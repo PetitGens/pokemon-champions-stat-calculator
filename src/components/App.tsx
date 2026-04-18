@@ -1,7 +1,11 @@
+import { Header } from "./Header";
+import { MainContainer } from "./MainContainer";
+
 export function App() {
   return (
-    <header>
-      <h1>Stats converter for Pokémon Champions</h1>
-		</header>
-	);
+    <>
+      <Header />
+      <MainContainer />
+    </>
+  );
 }
