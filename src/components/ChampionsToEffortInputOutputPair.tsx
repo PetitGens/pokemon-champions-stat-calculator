@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { convertChampionsStatPointsToEffortValue } from '../lib/stat-converter';
 
 interface Props {
   stat: string;
@@ -17,7 +18,8 @@ export function ChampionsToEffortInputOutputPair(props: Props) {
 
     const parsedValue = Number.parseInt(value);
     if (isNaN(parsedValue)) return;
-    setOutputValue(parsedValue);
+    const effortValue = convertChampionsStatPointsToEffortValue(parsedValue);
+    setOutputValue(effortValue ?? 0);
   }
 
   return (
