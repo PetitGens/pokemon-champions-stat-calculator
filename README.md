@@ -1,13 +1,3 @@
-# `create-preact`
+# Pokémon Champions Stats Converter
 
-## ![Logo Vite](./src/assets/preact.svg)
-
-### Get Started using Preact And Vite!
-
-## Getting Started
-
-- `npm run dev` - Starts a dev server at <http://localhost:5173/>
-
-- `npm run build` - Builds for production, emitting to `dist/`
-
-- `npm run preview` - Starts a server at <http://localhost:4173/> to test production build locally
+A helper tool to convert Pokémon Champions "Stats Points" to Effort Value and vice-versa.
