@@ -1,12 +1,12 @@
-import { ChampionsToEffortInputOutputPair } from "./ChampionsToEffortInputOutputPair";
+import { ChampionsToEffortInputOutputPair } from './ChampionsToEffortInputOutputPair';
 
 const stats = [
-  "HP",
-  "Attack",
-  "Defense",
-  "Special Attack",
-  "Special Defense",
-  "Speed",
+  'HP',
+  'Attack',
+  'Defense',
+  'Special Attack',
+  'Special Defense',
+  'Speed',
 ];
 
 export function ChampionsToEffortTable() {

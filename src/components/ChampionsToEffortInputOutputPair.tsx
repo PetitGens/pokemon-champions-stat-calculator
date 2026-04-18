@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useState } from 'preact/hooks';
 
 interface Props {
   stat: string;
@@ -10,7 +10,7 @@ export function ChampionsToEffortInputOutputPair(props: Props) {
   const [outputValue, setOutputValue] = useState(0);
 
   function onInputChange(value: string) {
-    if (value === "") {
+    if (value === '') {
       setOutputValue(0);
       return;
     }

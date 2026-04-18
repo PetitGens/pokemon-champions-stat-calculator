@@ -19,6 +19,7 @@
     "@preact/preset-vite": "^2.10.2",
     "eslint": "^9.39.4",
     "eslint-config-preact": "^2.0.0",
+    "eslint-config-prettier": "^10.1.8",
     "globals": "^17.5.0",
     "prettier": "^3.8.3",
     "typescript": "^6.0.3",
@@ -26,6 +27,9 @@
     "vite": "^7.0.4"
   },
   "eslintConfig": {
-    "extends": "preact"
+    "extends": [
+      "preact",
+      "prettier"
+    ]
   }
 }

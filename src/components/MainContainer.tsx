@@ -1,9 +1,9 @@
-import styled from "styled-components";
-import { ChampionsToEffortTable } from "./ChampionsToEffortTable";
+import styled from 'styled-components';
+import { ChampionsToEffortTable } from './ChampionsToEffortTable';
 
 export function MainContainer() {
   function changeMode() {
-    alert("TODO"); //TODO
+    alert('TODO'); //TODO
   }
 
   return (
