@@ -1,10 +1,9 @@
-import styled from "styled-components"
+import styled from "styled-components";
 import { ChampionsToEffortTable } from "./ChampionsToEffortTable";
 
 export function MainContainer() {
-
   function changeMode() {
-    alert('TODO'); //TODO
+    alert("TODO"); //TODO
   }
 
   return (
@@ -12,7 +11,7 @@ export function MainContainer() {
       <button onClick={changeMode}>Change mode</button>
       <ChampionsToEffortTable />
     </Main>
-  )
+  );
 }
 
 const Main = styled.main`

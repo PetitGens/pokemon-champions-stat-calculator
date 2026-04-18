@@ -5,8 +5,8 @@ export function Header() {
     <StyledHeader>
       <h1>Stats converter for Pokémon Champions</h1>
       <p>Converts Champions "Stat Points" to Effort Values and vice-versa.</p>
-		</StyledHeader>
-	);
+    </StyledHeader>
+  );
 }
 
 const StyledHeader = styled.header`
